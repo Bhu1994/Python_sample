@@ -1,3 +1,4 @@
+# Description: A simple calculator application using Tkinter.
 import tkinter as tk
 
 class Calculator:
