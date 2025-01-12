@@ -1,16 +1,18 @@
-b='!!!!dadfd!!!! kkkk'
+# x = 1
+# while x <= 10:
+#     print(f"Current value of x: {x}")
+#     x += 1
 
-print(len(b))
-print(b[0:3])
-print(b.upper())
-print(b.lower())
-print(b.rstrip('!'))
-print(b.lstrip('!'))
+# for x in range(1, 11):
+#     print(f"Current value of x: {x}")
 
-print(b.replace('d','f'))
-print(b.split(' '))
 
-# for i in b:
-#     print(i)
 
-print('mina')
+
+
+def calc(a, b):
+    mean = (a + b) / 2
+    print(f"The mean of {a} and {b} is: {mean}")
+    return mean
+
+calc(3, 4)
