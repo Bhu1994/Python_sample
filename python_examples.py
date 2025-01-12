@@ -13,3 +13,4 @@ print(b.split(' '))
 # for i in b:
 #     print(i)
 
+print('mina')
